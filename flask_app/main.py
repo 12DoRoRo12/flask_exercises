@@ -11,9 +11,9 @@ def index():
 def product():
     return render_template("product.html")
 
-@app.route("/about/<user>")
-def about(user):
-    return f"<h1>Check out our Info {user}!</h1>"
+@app.route("/about")
+def about():
+    return render_template("about.html")
 
 if __name__ == "__main__":
     app.run(debug=True)
