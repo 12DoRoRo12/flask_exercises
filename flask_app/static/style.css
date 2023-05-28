@@ -12,11 +12,11 @@ body {
     text-align: center;
     margin-top: 50px
 }
-img{
+.gallery img{
 
     display: block;
     max-width: 800px;
-    min-width: 300px;
+    min-width: 400px;
     margin: 0 auto;
     transition: 0.5s;
     margin-top: 50px;
@@ -49,8 +49,38 @@ ul {
     margin: 0 auto;
     margin-top: 100px;
     background-color: rgb(150, 100, 100);
-    align-items: center;
+
+
 }
 
+.all-tours{
+    text-align: center;
+}
 
+.tour-block{
+    max-width: 30%;
+    min-width: 300px;
+    border: solid 5px white;
+    text-align: center;
+    display: inline-block;
+    margin-bottom: 3%;
+    margin-left: 3%;
+
+}
+.tour-block img{
+    width: 100%;
+}
+
+.read {
+    margin-bottom: 20px;
+    border: solid 2px rgb(100, 100, 100);
+    background-color: rgb(150, 100, 100);
+    box-shadow: 2px 2px 5px black;
+
+}
+
+.read a{
+    text-decoration: none;
+    color: white;
+}
 
